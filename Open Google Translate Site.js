@@ -34,7 +34,7 @@ let allTranslateURLs = allLangsGTTranslateCodes.map((a, i) => {
         console.log(b[i])
         return
     }
-    let urls = a.map(a =>  `https://v2s3kp1c2-github-io.translate.goog/chatgpt-13-09-2024--15-43-00---intellectual-realistic-heated-debate-_-argument-_-1/ChatGPT%20original=english%20-%20Write%20a%20long,%20intellectual,%20realistic%20heated%20debate%20_%20argument%20between%20couples%20in%20love%20about%201%20having%20children%20or%20be%20childfree%202%20nihil.html?_x_tr_sl=auto&_x_tr_tl=${lang}&_x_tr_hl=en-US&_x_tr_pto=wapp`)
+    let urls = a.map(a =>  `https://v2s3kp1c2-github-io.translate.goog/chatgpt-13-09-2024--15-43-00---intellectual-realistic-heated-debate-_-argument-_-1/ChatGPT%20original=english%20-%20Write%20a%20long,%20intellectual,%20realistic%20heated%20debate%20_%20argument%20between%20couples%20in%20love%20about%201%20having%20children%20or%20be%20childfree%202%20nihil.html?_x_tr_sl=auto&_x_tr_tl=${a[0]}&_x_tr_hl=en-US&_x_tr_pto=wapp`)
     
     return urls
 })
